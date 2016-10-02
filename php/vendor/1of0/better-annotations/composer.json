@@ -1,0 +1,31 @@
+{
+	"name": "1of0/better-annotations",
+	"description": "Wrapper around the doctrine/annotations that tries to be less verbose",
+	"keywords": [ "annotations" ],
+	"license": "MIT",
+	"require":
+	{
+		"php": ">=5.5.0",
+		"doctrine/annotations": "^1.2.0",
+		"container-interop/container-interop": "^1.0.0"
+	},
+	"require-dev":
+	{
+		"phpunit/phpunit": "^4.8.0",
+		"php-di/php-di": "^5.0.0"
+	},
+	"autoload":
+	{
+		"psr-4":
+		{
+			"OneOfZero\\BetterAnnotations\\": "src/"
+		}
+	},
+	"autoload-dev":
+	{
+		"psr-4":
+		{
+			"OneOfZero\\BetterAnnotations\\Tests\\": "tests/"
+		}
+	}
+}

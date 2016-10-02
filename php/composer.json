@@ -1,0 +1,12 @@
+{
+  "require-dev": {
+    "1happyplace/phpunit-colors": "v1.0",
+    "phpunit/phpunit": "5.5.*",
+    "phpunit/dbunit": ">=1.2",
+    "phpunit/php-invoker": "*",
+    "phpunit/phpunit-selenium": ">=1.2"
+  },
+  "require": {
+    "1of0/json": "0.3.0"
+  }
+}
